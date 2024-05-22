@@ -1,0 +1,44 @@
+.main-women-header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 20px; 
+    margin-top: 50px; 
+}
+
+.main-women-header h1 {
+    width: 100%;
+    text-align: center; 
+    font-size: 25px; 
+    margin-bottom: 20px; 
+}
+
+.arrows {
+    margin-top: 20px; 
+    justify-content: center; 
+    width: 100%; 
+}
+
+.arrows img {
+    margin: 0 5px;
+}
+
+/* Media queries for mobile view */
+@media only screen and (min-width: 768px) {
+    .main-women-header {
+        padding: 0 189px; 
+        margin-top: 100px; 
+    }
+
+    .arrows {
+        width: auto; 
+    }
+    .menall{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* width: 80px; */
+        /* margin-left: 10%; */
+    }
+}

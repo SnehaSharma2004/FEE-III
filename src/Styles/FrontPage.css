@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.front-pg {
+    height: 81.5vh;
+    background: url(../assets/front_page_img.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.content {
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.content-text {
+    color: #fff;
+    text-align: center;
+}
+
+.content-text h5 {
+    font-size: 25px;
+    font-family: "Gotham";
+    padding-bottom: 5px;
+}
+
+.content-text h1 {
+    font-size: 80px;
+    font-family: "Gotham2";
+}
+
+.content-text h4 {
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    padding: 10px 15px;
+}
+
+.content-text h3 {
+    font-size: 40px;
+    font-family: "Gotham2";
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line > div {
+    width: 110px;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* Media Query for mobile view */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; 
+        height: auto;       
+        padding: 20px; 
+    }
+        .content-text h1 {
+        font-size: 40px; 
+    }
+
+    .content-text h3 {
+        font-size: 30px; 
+    }
+}
+
+/* Media Query for desktop view */
+@media (min-width: 769px) {
+    .content {
+        padding: 0 50px;     }
+}

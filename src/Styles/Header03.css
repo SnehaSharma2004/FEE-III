@@ -1,0 +1,38 @@
+.header-content ul {
+    display: flex; 
+    padding: 0 13vw;
+    color: #444444;
+    font-size: 14px; 
+    list-style: none; 
+    justify-content: center; 
+}
+
+.header-content li {
+    margin: 0 10px; 
+}
+
+a {
+    text-decoration: none;
+    color: #444444;
+    font-family: Gotham2, sans-serif;  
+}
+
+.header-content {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Media Query for mobile view */
+@media (max-width: 768px) {
+    .header-content ul {
+        padding: 0 10px; 
+        flex-wrap: wrap; 
+        justify-content: flex-start; 
+    }
+
+    .header-content li {
+        font-size: 12px; 
+        margin: 5px; 
+    }
+}
